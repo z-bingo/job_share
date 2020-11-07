@@ -9,8 +9,9 @@
 
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
-	<link rel="stylesheet" href="dist/theme/league.css" id="theme">
+	<link rel="stylesheet" href="dist/theme/custom_gray.css" id="theme">
 </head>
+
 
 <body>
 	<div class="reveal">
@@ -37,12 +38,14 @@
 				<!-- 个人信息 -->
 				<section>
 					<h3 text-align="center">个人情况</h3>
-					<ul style="width: 85%; text-align: left;">
-						<li><strong>学校：</strong>本211(河海大学) + 硕985</li>
-						<li><strong>专业：</strong>通信工程 + 信号与信息处理&emsp;<font color="red">非科班</font>
-						</li>
-						<li><strong>研究方向：</strong>计算机视觉，尤其是人脸检测、物体检测、神经网路架构搜索</li>
-					</ul>
+					<div style="text-align: center;">
+						<ul style="width: 85%; text-align: left;">
+							<li><strong>学校：</strong>本211(河海大学) + 硕985</li>
+							<li><strong>专业：</strong>通信工程 + 信号与信息处理
+							</li>
+							<li><strong>研究方向：</strong>计算机视觉，尤其是人脸检测、物体检测、神经网路架构搜索</li>
+						</ul>
+					</div>
 					<aside class="notes">
 						这是我的基本情况，非科班出身转行
 					</aside>
@@ -143,6 +146,89 @@
 					</ul>
 				</section>
 			</section>
+			<!-- 科普什么是算法岗？ -->
+			<section>
+				<!-- what is 算法岗 -->
+				<section>
+					<h3>算法岗包含什么？</h3>
+					<ul>
+						<li>计算机视觉 (CV)&emsp; <span style="color: red;" class="fragment" data-fragment-index="1">Deep
+								Learning</span></li>
+						<li>自然语言处理 (NLP)&emsp; <span style="color: red;" class="fragment" data-fragment-index="1">Deep
+								Learning</span></li>
+						<li>数据挖掘/推荐/搜索算法 (RS)&emsp; <span style="color: red;" class="fragment"
+								data-fragment-index="1">Deep
+								Learning</span><span style="color: deepskyblue;" class="fragment"
+								data-fragment-index="2">&nbsp;
+								Machine
+								Learning</span></li>
+						<li>机器学习算法 (ML)&emsp; <span style="color: deepskyblue;" class="fragment"
+								data-fragment-index="2">Machine
+								Learning</span></li>
+						<li>语音/图像/视频算法&emsp; <span style="color: lightcoral;" class="fragment">标准相关，如MPEG4,
+								H.264，以及传统算法</span></li>
+						<li>射频/通信算法&emsp; <span style="color: mediumaquamarine;" class="fragment">协议相关，如IEEE
+								802.11</span>
+						</li>
+						<li>......</li>
+					</ul>
+				</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-hstack justify-center">
+						<div data-id="cv" data-auto-animate-delay="0"
+							style="background: lightskyblue; width: 150px; height: 100px; border-radius: 10px; margin: 10px;">
+							<p style="color: #1e1e1e;">CV</p>
+						</div>
+						<div data-id="nlp" data-auto-animate-delay="0.1"
+							style="background: lightsalmon; width: 150px; height: 100px; border-radius: 10px; margin: 10px;">
+							<p style="color: #1e1e1e;">NLP</p>
+						</div>
+						<div data-id="rs" data-auto-animate-delay="0.2"
+							style="background: goldenrod; width: 150px; height: 100px; border-radius: 10px; margin: 10px;">
+							<p style="color: #1e1e1e;">RS</p>
+						</div>
+					</div>
+					<h3 style="margin-top: 20px;">三大AI算法</h3>
+				</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-stack">
+						<div style="background: lightcyan; width: 700px; height: 450px; border-radius: 50% / 50%;">
+							<p style="color: #1e1e1e; font-size: 28px; margin-top: 10px;">AI算法</p>
+						</div>
+						<div style="background: lightsteelblue; width: 600px; height: 350px; border-radius: 50% / 50%;">
+							<p style="color: #1e1e1e; font-size: 28px; margin-top: 10px;">ML</p>
+						</div>
+						<div class="r-hstack">
+							<div data-id="dl"
+								style="background: mediumaquamarine; width: 420px; height: 250px; border-radius: 50% / 50%;">
+								<p style="color: #1e1e1e; font-size: 28px; margin-top: 10px;">DL</p>
+							</div>
+							<div data-id="rs" data-auto-animate-delay="0.1"
+								style="background: goldenrod; width: 150px; height: 100px; border-radius: 50% / 50%; margin-left: -40px;">
+								<p style="color: #1e1e1e; font-size: 36px; margin-top: 20%;">RS</p>
+							</div>
+						</div>
+						<div class="r-hstack justify-center">
+							<div data-id="cv" data-auto-animate-delay="0.1"
+								style="background: lightskyblue; width: 150px; height: 100px; border-radius: 50% / 50%; margin: auto 20px auto -150px;">
+								<p style="color: #1e1e1e; font-size: 36px; margin-top: 20%">CV</p>
+							</div>
+							<div data-id="nlp" data-auto-animate-delay="0.1"
+								style="background: lightsalmon; width: 150px; height: 100px; border-radius: 50% / 50%; margin: 10ox;">
+								<p style="color: #1e1e1e; font-size: 36px; margin-top: 20%;">NLP</p>
+							</div>
+
+						</div>
+					</div>
+				</section>
+				<!-- 结合具体领域 -->
+				<section>
+					<h3>三大AI算法就业领域</h3>
+					<ul>
+						<li>计算机视觉(CV)：泛娱乐、安防、工业质检、自动驾驶</li>
+					</ul>
+				</section>
+			</section>
 			<!-- 秋招容易吗？ -->
 			<section>
 				<section>
@@ -182,10 +268,33 @@
 				<!-- 为什么会这么难？ -->
 				<section>
 					<h3>为什么会这么难？</h3>
-					<ol style="width: 80%; text-align: left;">
+					<ol style="width: 80%; text-align: left; margin-top: 10px;">
 						<li class="fragment">相较于开发、测试等岗位，算法岗Head Count (HC)比较少</li>
 						<li class="fragment">算法岗要求高，导致80%的offer掌握在20%的人手中</li>
 					</ol>
+				</section>
+			</section>
+			<!--  -->
+			<section>
+				<section>
+					<p>即便如此，还是越来越多人卷入这场"厮杀"...</p>
+				</section>
+				<!-- from zhihu -->
+				<section>
+					<img src="img/zhihu.png" alt="zhihu search" height="650px">
+				</section>
+				<!-- why this phenomenon -->
+				<section>
+					<h3>为什么？</h3>
+					<ol style="width: 80%; text-align: left;">
+						<li class="fragment">盲目从众。e.g. 硕士不做算法会不会很low，研究生必须找算法岗才有前途？</li>
+						<li class="fragment">入门简单、轮子众多。Python很简单可以搭出模型，开源代码非常多，简单调参后就可有不错的性能。</li>
+						<li class="fragment">舆论导向、高薪诱惑。很多AI自媒体时常推送人工智能培训班课程，如学会xxx，包你年薪50w；一周学会xxx。</li>
+					</ol>
+				</section>
+				<!-- 辟谣 -->
+				<section>
+					<h3>理想很丰满，现实很骨干</h3>
 				</section>
 			</section>
 		</div>
